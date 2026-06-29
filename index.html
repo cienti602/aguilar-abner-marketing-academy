@@ -55,7 +55,9 @@
         <h3>Marketing Digital Básico</h3>
         <p>Aprende los fundamentos del marketing digital.</p>
         <p>Precio: Bs. 250</p>
-        <button>Comprar</button>
+        <button class="btn-comprar" data-curso="Marketing Digital Básico">
+            Comprar
+        </button>
     </article>
 
     <article>
@@ -65,7 +67,9 @@
         <h3>Facebook Ads</h3>
         <p>Aprende campañas publicitarias en Facebook.</p>
         <p>Precio: Bs. 300</p>
-        <button>Comprar</button>
+        <button class="btn-comprar" data-curso="Facebook Ads">
+            Comprar
+        </button>
     </article>
 
     <article>
@@ -75,7 +79,9 @@
         <h3>SEO</h3>
         <p>Posiciona páginas web en Google.</p>
         <p>Precio: Bs. 350</p>
-        <button>Comprar</button>
+        <button class="btn-comprar" data-curso="SEO">
+            Comprar
+        </button>
     </article>
 
 </section>
@@ -111,19 +117,19 @@
 
     <h2>Contáctanos</h2>
 
-    <form>
+    <form id="formularioContacto">
 
         <label>Nombre</label><br>
-        <input type="text"><br><br>
+        <input type="text" id="nombre">
 
         <label>Correo</label><br>
-        <input type="email"><br><br>
+        <input type="email" id="correo">
 
         <label>Curso de interés</label><br>
-        <input type="text"><br><br>
+        <input type="text" id="curso">
 
         <label>Mensaje</label><br>
-        <textarea></textarea><br><br>
+        <textarea id="mensaje"></textarea>
 
         <button type="submit">Enviar</button>
 
@@ -132,7 +138,7 @@
 </section>
     <footer>
 
-    <p>Marketing Digital Academy © 2026</p>
+    <p>Marketing Digital Academy © <span id="anio"></span></p>
 
     <p>Email: jhonabner2472000@gmail.com</p>
 
@@ -140,6 +146,7 @@
     <p>Somos tu mejor opcion si quieres convertirte en un emprendedor digital</p>
 
 </footer>
+    <button id="btnArriba">↑</button>
     <script src="js/main.js"></script>
 </body>
 </html>

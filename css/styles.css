@@ -10,7 +10,7 @@ body{
     line-height: 1.6;
 }
 header{
-    background-color: #0e80de;
+    background-color: #0ede8e;
     color: white;
     text-align: center;
     padding: 30px;
@@ -187,4 +187,14 @@ footer{
     #inicio h2{
         font-size:28px;
     }
+}
+#btnArriba{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
 }
